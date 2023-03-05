@@ -9,4 +9,32 @@ The 2 weeks of my Live Project (referred to as "Theatre Project" onward) involve
 I first created an entity model for the Rental History class in order to include the information in the Theatre Project database. I subsequently used Entity Framework to get the CRUD pages started. 
 
 ## Story 2: Sytling Index and Create pages
-The second story involved styling the Index and Create pages using a client-specific colour palette and layout. Based on the limited instructions, I was able to re-create ![this](CreateRental.gif).
+The second story involved styling the Index and Create pages using a client-specific colour palette and layout. Based on the limited instructions, I was able to re-create this: ![createrentalgif](CreateRental.gif).
+
+### Focus feature 1:
+One of the main styling points was (1) making sure "Rental" and the "Damaged?" checkbox were on the same line, and (2) lining up the "Back to List" and "Create " buttons in the bottom center.  I took advantage of flex boxes to achieve this.
+
+### Focus feature 2:
+The "Damaged?" checkbox determined if "Damages Incurred" or "Notes" would be displayed below. I utilized a JS function based on my earier bootcamp tutorials:
+
+//Function for Rental History Create Page
+
+$(document).ready(function () {
+    // When checkbox is checked, show damages incurred section instead
+    $('#damaged-checkbox').change(function () {
+        if ($(this).is(':checked')) {
+            $('#damages-incurred').show();
+            $('#notes').hide();
+        }
+        else {
+            $('#damages-incurred').hide();
+            $('#notes').show();
+        }                            
+    });
+});
+
+// Function for Rental History Index Page sorting
+function submitForm() {
+    document.getElementById("rental-index--sorting").submit();
+}
+
