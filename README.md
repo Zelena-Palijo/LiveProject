@@ -9,4 +9,4 @@ The 2 weeks of my Live Project (referred to as "Theatre Project" onward) involve
 I first created an entity model for the Rental History class in order to include the information in the Theatre Project database. I subsequently used Entity Framework to get the CRUD pages started. 
 
 ## Story 2: Sytling Index and Create pages
-The second story involved styling the Index and Create pages using a client-specific colour palette and layout. Based on the limited instructions, I was able to re-create ![this](~/Desktop/CreateRental.gif).
+The second story involved styling the Index and Create pages using a client-specific colour palette and layout. Based on the limited instructions, I was able to re-create ![this](CreateRental.gif).
