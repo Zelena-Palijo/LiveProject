@@ -17,6 +17,7 @@ One of the main styling points was (1) making sure "Rental" and the "Damaged?" c
 ### Focus feature 2:
 The "Damaged?" checkbox determined if "Damages Incurred" or "Notes" would be displayed below. I utilized a JS function based on my earier bootcamp tutorials:
 
+```
 //Function for Rental History Create Page
 
 $(document).ready(function () {
@@ -37,4 +38,5 @@ $(document).ready(function () {
 function submitForm() {
     document.getElementById("rental-index--sorting").submit();
 }
+```
 
