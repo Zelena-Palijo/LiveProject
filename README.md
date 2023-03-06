@@ -45,6 +45,8 @@ The rest of the stories were extra practice; I had already completed the require
 ### Story 3
 This story focused on showing the Rental Histories in tabular form. It also included adding a green check mark or red x icon depending on the rental's state (damaged vs undamaged). The story further required the vertical ellipses that when hovered over, will show the Edit, Details, and Delete options.
 
+![rentalhistoryindex](RentalHistoryIndex.png)
+
 ### Story 4
 Story 4 focused on the option to sort the rentals: No Sort, Damaged Rentals, Undamaged Rentals, A-Z, and Z-A. This stretched me, and required a lot of self-study and research. I was able to add the sorting options in the controller using the code below: 
 
@@ -82,8 +84,12 @@ Story 4 focused on the option to sort the rentals: No Sort, Damaged Rentals, Und
 
 ```
 
+![rentalhistoryindex](RentalHistoryIndexSorting.png)
+
 ### Story 5
 Story 5's goal was to create the accordion effect to the index page, so that the Notes/Damages Incurred portion would remain hidden untl clicked on.
+
+![rentalhistoryindex](RentalHistoryIndexDropdown.png)
 
 ## Conclusion
 As seen above, the Live Project required to to utilize different front-end and back-end skills to achieve the customer's desired results. The addition of daily stand-ups and regular meetings with the Project Director mimicked standard project management practices.
